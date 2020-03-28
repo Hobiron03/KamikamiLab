@@ -1,0 +1,17 @@
+.HeaderNavigationButton{
+  height: 100%;
+  width: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.HeaderNavigationButton p{
+  margin-top: 25px;
+  font-size: 16px;
+  color: #5A5A5A;
+  font-weight: bolder;
+}
