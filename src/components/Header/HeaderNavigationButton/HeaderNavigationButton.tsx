@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './HeaderNavigationButton.css';
 
 interface NavigationButtonProps {
+  contentTextColor: string;
   contentText: string;
   fontInfo: {
     info: string,
@@ -16,11 +17,11 @@ const HeaderNavigationButton = (props: NavigationButtonProps) => {
   const info: any = props.fontInfo.info;
   const fontName: any = props.fontInfo.fontName;
 
-  console.log(props.contentText);
-
   return (
     <div className="HeaderNavigationButton">
-      <p><FontAwesomeIcon icon={[info, fontName]} /> {props.contentText}</p>
+      <p style={{ color: props.contentTextColor }}>
+        <FontAwesomeIcon icon={[info, fontName]} /> {props.contentText}
+      </p>
     </div>
   )
 };

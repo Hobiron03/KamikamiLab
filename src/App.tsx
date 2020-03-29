@@ -1,25 +1,24 @@
-import React from 'react';
+import React, { useReducer } from 'react';
 import './App.css';
 import Header from './components/Header/Header';
+import pageState from './reducers/pageState.js';
+import AppContext from './contexts/AppContext.js';
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
 } from "react-router-dom";
 
-import Home from "./components/Home/Home";
-import Works from "./components/Works/Works";
-
 const App = () => {
+
+  const [state, dispatch] = useReducer(pageState, [true, false, false])
+
   return (
-    <div className="App">
-      <Router>
-        <div className="header">
+    <AppContext.Provider value={{ state, dispatch }}>
+      <div className="App">
+        <Router>
           <Header />
-        </div>
-      </Router>
-    </div >
+        </Router>
+      </div >
+    </AppContext.Provider>
   );
 }
 

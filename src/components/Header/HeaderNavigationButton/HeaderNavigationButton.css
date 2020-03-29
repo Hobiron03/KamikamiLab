@@ -7,6 +7,12 @@
   display: flex;
   justify-content: center;
   align-self: center;
+
+  transition: all 0.2s;
+}
+
+.HeaderNavigationButton:hover{
+  background-color: rgb(240, 240, 240);
 }
 
 .HeaderNavigationButton p{
@@ -14,4 +20,6 @@
   font-size: 16px;
   color: #5A5A5A;
   font-weight: bolder;
+
+  transition: all 0.3s;
 }
