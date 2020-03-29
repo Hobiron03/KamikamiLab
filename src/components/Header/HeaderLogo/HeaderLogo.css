@@ -6,11 +6,12 @@
   display: flex;
   justify-content: center;
   align-self: center;
-  
+
   transition: all 0.3s;
 }
 
 .headerLogo p{
+  padding-top: 20px;
   color: white;
   font-size: 21px;
   font-weight: bold;
