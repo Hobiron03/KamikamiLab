@@ -6,10 +6,13 @@ header {
   height: 70px;
   border-bottom: solid 2px #00A8CC;
   box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.15);
+
+  position: fixed;
 }
 
 .header-right{
   display: flex;  
+  text-decoration: none;
 }
 
 h2{
