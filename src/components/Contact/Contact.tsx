@@ -6,7 +6,7 @@ import {
 import "./Contact.css";
 
 const Contact = () => {
-  const { state, dispatch } = useContext(AppContext);
+  const { dispatch } = useContext(AppContext);
 
   const [pageState, setPageState] = useState([true, false, false]);
   useEffect(() => {

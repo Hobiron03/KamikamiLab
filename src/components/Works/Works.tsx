@@ -18,7 +18,6 @@ const Works = () => {
     dispatch({
       type: CHANGE_PAGE_STATE_WORKS,
     });
-    console.log(state);
   }, [pageState]);
 
   return (

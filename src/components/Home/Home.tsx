@@ -7,7 +7,7 @@ import "./Home.css";
 
 const Home = () => {
 
-  const { state, dispatch } = useContext(AppContext);
+  const { dispatch } = useContext(AppContext);
   const [pageState, setPageState] = useState([true, false, false]);
 
   useEffect(() => {
@@ -19,7 +19,6 @@ const Home = () => {
       type: CHANGE_PAGE_STATE_HOME,
     });
   }, [pageState]);
-
 
 
   return (

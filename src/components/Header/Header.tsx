@@ -1,11 +1,12 @@
 import React, { useContext, useEffect, useState } from 'react';
 import AppContext from '../../contexts/AppContext.js';
 import "./Header.css";
+
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
 } from "react-router-dom";
 
 import Home from "../Home/Home";
@@ -23,6 +24,7 @@ const Header = () => {
   const [worksColor, setWorksColor] = useState("#ED9542");
   const [contactColor, setContactColor] = useState("#E64343");
   const [logoColor, setLogoColor] = useState("#00A8CC");
+
 
   useEffect(() => {
     console.log(state);
@@ -113,6 +115,7 @@ const Header = () => {
           <Home />
         </Route>
       </Switch>
+
     </Router>
 
   );
