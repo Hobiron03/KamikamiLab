@@ -3,8 +3,13 @@ import AppContext from '../../contexts/AppContext.js';
 import {
   CHANGE_PAGE_STATE_HOME,
 } from "../../actions/index";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  Link
+} from "react-router-dom"
 import "./Home.css";
+
+import ProfileCard from '../../components/ProfileCard/ProfileCard';
+import Mybutton from '../../components/Button/MyButton';
 
 const Home = () => {
 
@@ -28,40 +33,14 @@ const Home = () => {
         <h1>Welcome to KamikamiLab!</h1>
       </div>
 
-      <div className="profile-card">
-        <div className="profile-card-title">
-          <h3>About</h3>
+      <ProfileCard />
+
+      <div className="content">
+
+        <div className="content-skill">
+          <h3>Skill</h3>
         </div>
-
-        <div className="profile-card-content">
-          <div className="profile-card-left">
-            <div className="profile-card-img">
-              img
-            </div>
-            <div className="profile-card-logos">
-              <a href="https://google.com" className="git">
-                <FontAwesomeIcon icon={["fab", "github-square"]} size={"3x"} className="logos" />
-              </a>
-              <a href="https://google.com" className="facebook">
-                <FontAwesomeIcon icon={["fab", "facebook-square"]} size={"3x"} className="logos" />
-              </a>
-              <a href="https://google.com" className="twitter">
-                <FontAwesomeIcon icon={["fab", "twitter-square"]} size={"3x"} className="logos" />
-              </a>
-              <a href="https://google.com" className="youtube">
-                <FontAwesomeIcon icon={["fab", "youtube"]} size={"3x"} className="logos" />
-              </a>
-            </div>
-          </div>
-
-          <div className="profile-card-right">
-            <h3 className="profile-card-right-name">川上 雄大（Yudai Kawakami）</h3>
-            <p className="profile-card-right-content">
-              こんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちは
-            </p>
-          </div>
-        </div>
-
+        <Mybutton />
       </div>
 
     </div>
