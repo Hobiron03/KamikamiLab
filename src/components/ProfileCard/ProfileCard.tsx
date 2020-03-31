@@ -1,7 +1,4 @@
 import React from 'react';
-import {
-  Link
-} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import "./ProfileCard.css";
 
@@ -37,7 +34,8 @@ const ProfileCard = () => {
           <div className="profile-card-right">
             <h3 className="profile-card-right-name">川上 雄大（Yudai Kawakami）</h3>
             <p className="profile-card-right-content">
-              こんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちは
+              立命館大学院情報理工学研究科に所属しております、川上雄大と申します。現在23歳です。趣味はゲームと音楽です。
+              将来は空間にいる人全員を楽しませることができるエンターテインメントを作る仕事に関わりたいと思っています。
             </p>
           </div>
         </div>

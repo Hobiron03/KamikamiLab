@@ -49,7 +49,7 @@ const Header = () => {
 
       setLogoColor(contactColor);
     }
-
+    // eslint-disable-next-line
   }, [state])
 
   return (
@@ -60,6 +60,7 @@ const Header = () => {
         </div>
 
         <div className="header-right">
+
           <Link exact="true" to="/" style={{ textDecoration: 'none' }}>
             <HeaderNavigationButton
               contentTextColor={homeColor}

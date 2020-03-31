@@ -3,13 +3,10 @@ import AppContext from '../../contexts/AppContext.js';
 import {
   CHANGE_PAGE_STATE_HOME,
 } from "../../actions/index";
-import {
-  Link
-} from "react-router-dom"
 import "./Home.css";
 
-import ProfileCard from '../../components/ProfileCard/ProfileCard';
-import Mybutton from '../../components/Button/MyButton';
+import ProfileCard from '../ProfileCard/ProfileCard';
+import Mybutton from '../Button/MyButton';
 
 const Home = () => {
 
@@ -24,6 +21,7 @@ const Home = () => {
     dispatch({
       type: CHANGE_PAGE_STATE_HOME,
     });
+    // eslint-disable-next-line
   }, [pageState]);
 
 
@@ -39,6 +37,8 @@ const Home = () => {
       </div>
 
       <ProfileCard />
+
+      <div className="margin"></div>
 
       <div className="content">
 
@@ -67,10 +67,9 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <Mybutton />
         </div>
       </div>
-
-      <Mybutton />
     </div>
   )
 
@@ -78,3 +77,7 @@ const Home = () => {
 
 
 export default Home;
+
+
+// <ProfileCard />
+

@@ -1,25 +1,53 @@
-.HeaderNavigationButton{
-  height: 100%;
-  width: 150px;
-  margin-left: 20px;
-  margin-right: 20px;
+@media screen and (min-width: 960px) {
+  .HeaderNavigationButton{
+    height: 100%;
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-self: center;
   
-  display: flex;
-  justify-content: center;
-  align-self: center;
+    transition: all 0.2s;
+  }
+  
+  .HeaderNavigationButton:hover{
+    background-color: rgb(240, 240, 240);
+  }
+  
+  .HeaderNavigationButton p{
+    margin-top: 25px;
+    font-size: 18px;
+    color: #5A5A5A;
+    font-weight: bolder;
+  
+    transition: all 0.3s;
+  }
+ }
 
-  transition: all 0.2s;
-}
-
-.HeaderNavigationButton:hover{
-  background-color: rgb(240, 240, 240);
-}
-
-.HeaderNavigationButton p{
-  margin-top: 25px;
-  font-size: 18px;
-  color: #5A5A5A;
-  font-weight: bolder;
-
-  transition: all 0.3s;
+@media screen and (max-width: 960px) { 
+  .HeaderNavigationButton{
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  
+    transition: all 0.2s;
+  }
+  
+  .HeaderNavigationButton:hover{
+    -webkit-tap-highlight-color: rgba( 77, 160, 231, 0.5);
+  }
+  
+  .HeaderNavigationButton p{
+    margin: 20px;
+    font-size: 18px;
+    color: #5A5A5A;
+    font-weight: bolder;
+  
+    transition: all 0.3s;
+  }
 }

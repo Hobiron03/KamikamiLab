@@ -17,6 +17,7 @@ const Contact = () => {
     dispatch({
       type: CHANGE_PAGE_STATE_CONTACT,
     });
+    // eslint-disable-next-line
   }, [pageState]);
 
 

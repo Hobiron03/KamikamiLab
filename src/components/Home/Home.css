@@ -1,20 +1,20 @@
-.home{
-  padding-top: 70px;
-}
-
+@media (min-width: 960px) { 
+  .top h1 {
+    color: white;
+    font-size: 60px;
+    padding-top: 100px;
+    text-align: center;
+  }
+  
 .top{
   height: 500px;
   background-color: #474949;
-
   background-image: url("../../images//TopImage.png");
   position: relative;
 }
 
-.top h1 {
-  color: white;
-  font-size: 60px;
-  padding-top: 100px;
-  text-align: center;
+.home{
+  padding-top: 70px;
 }
 
 .content{
@@ -28,7 +28,7 @@
 
 .content-skill{
   margin: 0 auto;
-  margin-bottom: 200px;
+  margin-bottom: 300px;
   text-align: center;
   height: 55px;
   width: 100%;
@@ -40,6 +40,7 @@
 
 .content-skill-list{
   margin-top: 0px;
+  margin-bottom: 80px;
   display: flex;
   justify-content: space-between;
 
@@ -96,3 +97,137 @@
       transform: translateY(0);
      }
   }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 960px) { 
+
+  .top h1 {
+    color: white;
+    font-size: 40px;
+    padding-top: 40px;
+    text-align: center;
+  }
+  
+
+.top{
+  height: 370px;
+  background-color: #474949;
+
+  background-image: url("../../images//TopImage.png");
+  position: relative;
+}
+
+
+.content{
+  margin: 0 auto;
+  margin-bottom: 300px;
+  width: 100%;
+  max-width: 950px;
+}
+
+
+
+.content-skill{
+  margin: 0 auto;
+  text-align: center;
+  height: 55px;
+  width: 100%;
+
+}
+
+.content-skill h3{
+  font-size: 26px;
+}
+
+.content-skill{
+  margin-top: 450px;
+}
+
+
+.content-skill-list{
+  margin-top: 0px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* animation-name: fadein; */
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+.skill-lang{
+  width: 80%;
+  font-size: 12px;
+
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.skill-lang-content{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px #00A8CC;
+  border-radius: 1%;
+}
+
+.skill-lang-content h2{
+  margin: 15px;
+}
+
+.skill-framework{
+  width: 80%;
+  font-size: 12px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.skill-framework-title{
+  background-color: white;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.skill-framework-content{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px #00A8CC;
+  border-radius: 1%;
+}
+
+.skill-framework-content h2{
+  margin: 15px;
+  
+}
+
+.content{
+}
+
+
+@keyframes fadein {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+     }
+  }
+
+
+
+}
+

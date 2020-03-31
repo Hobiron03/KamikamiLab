@@ -1,4 +1,4 @@
-import React, { useEffect, useContext, useState } from 'react';
+import React, { useEffect, useContext, useState, useCallback } from 'react';
 import AppContext from '../../contexts/AppContext.js';
 import {
   CHANGE_PAGE_STATE_WORKS,
@@ -7,18 +7,26 @@ import "./Works.css";
 
 const Works = () => {
 
-  const { state, dispatch } = useContext(AppContext);
+  const { dispatch } = useContext(AppContext);
 
   const [pageState, setPageState] = useState([true, false, false]);
+  const stableDispatch = useCallback(dispatch, [pageState]);
+
   useEffect(() => {
     setPageState([true, false, false]);
   }, []);
 
   useEffect(() => {
-    dispatch({
-      type: CHANGE_PAGE_STATE_WORKS,
-    });
+    stableDispatch({ type: CHANGE_PAGE_STATE_WORKS });
+    console.log("Worksss")
+    // eslint-disable-next-line
   }, [pageState]);
+
+  // const changePageState = (): void => {
+  //   dispatch({
+  //     type: CHANGE_PAGE_STATE_WORKS,
+  //   });
+  // }
 
   return (
     <div className="Works">
