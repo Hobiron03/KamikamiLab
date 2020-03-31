@@ -24,7 +24,7 @@
   filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.2));
 
   animation-name: fadein;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-iteration-count: 1;
 }
 

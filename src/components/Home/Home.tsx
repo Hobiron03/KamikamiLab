@@ -27,6 +27,11 @@ const Home = () => {
   }, [pageState]);
 
 
+  const [skillContentAnim, setSkillContentAnim] = useState("");
+  window.addEventListener("scroll", () => {
+    setSkillContentAnim("fadein");
+  });
+
   return (
     <div className="home">
       <div className="top" style={{ backgroundImage: "TopImage" }}>
@@ -39,7 +44,7 @@ const Home = () => {
 
         <div className="content-skill">
           <h3>Skill</h3>
-          <div className="content-skill-list">
+          <div className="content-skill-list" style={{ animationName: skillContentAnim }}>
             <div className="skill-lang">
               <h2>Language</h2>
               <div className="skill-lang-content">
