@@ -8,7 +8,6 @@
 
   background-image: url("../../images//TopImage.png");
   position: relative;
-
 }
 
 .top h1 {
@@ -21,13 +20,64 @@
 .content{
   margin: 0 auto;
   margin-top: 300px;
-  height: 700px;
-  width: 100%;
+  margin-bottom: 300px;
+  width: 600%;
   max-width: 950px;
 }
 
+
 .content-skill{
-  font-size: 28px;
+  margin: 0 auto;
+  margin-bottom: 200px;
   text-align: center;
   height: 55px;
+  width: 100%;
+}
+
+.content-skill h3{
+  font-size: 40px;
+}
+
+.content-skill-list{
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-lang{
+  width: 48%;
+}
+
+.skill-lang-content{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px #00A8CC;
+  border-radius: 1%;
+}
+
+.skill-lang-content h2{
+  margin: 30px;
+}
+
+.skill-framework{
+  width: 48%;
+}
+
+.skill-framework-title{
+  background-color: white;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.skill-framework-content{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px #00A8CC;
+  border-radius: 1%;
+}
+
+.skill-framework-content h2{
+  margin: 30px;
 }

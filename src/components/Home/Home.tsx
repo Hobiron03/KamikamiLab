@@ -39,12 +39,37 @@ const Home = () => {
 
         <div className="content-skill">
           <h3>Skill</h3>
+          <div className="content-skill-list">
+            <div className="skill-lang">
+              <h2>Language</h2>
+              <div className="skill-lang-content">
+                <h2>C#</h2>
+                <h2>Python</h2>
+                <h2>JavaScript</h2>
+                <h2>HTML</h2>
+                <h2>CSS</h2>
+              </div>
+            </div>
+
+            <div className="skill-framework">
+              <h2 className="skill-framework-title">Framework & Tool</h2>
+              <div className="skill-framework-content">
+                <h2>Unity</h2>
+                <h2>Django</h2>
+                <h2>React</h2>
+                <h2>Premiere Pro</h2>
+                <h2>After Effects</h2>
+              </div>
+            </div>
+          </div>
         </div>
-        <Mybutton />
       </div>
 
+      <Mybutton />
     </div>
   )
+
 };
+
 
 export default Home;
