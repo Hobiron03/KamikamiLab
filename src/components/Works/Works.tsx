@@ -6,11 +6,15 @@ import React, { useEffect, useContext, useState, useCallback } from 'react';
 //   Link,
 //   useRouteMatch,
 // } from "react-router-dom";
+import Product from "../Product/Product";
+import Music from "../Music/Music";
+import Youtube from "../Youtube/Youtube";
 import AppContext from '../../contexts/AppContext.js';
 import {
   CHANGE_PAGE_STATE_WORKS,
 } from "../../actions/index";
 import "./Works.css";
+
 
 const Works = () => {
   const { dispatch } = useContext(AppContext);
@@ -41,9 +45,21 @@ const Works = () => {
     }
 
     return ['toggle-button-content', selectedButtonClass].join(" ");
-  }
+  };
 
-  console.log(toggleState)
+
+  const showTable = (): JSX.Element => {
+    if (toggleState === "product") {
+      return <Product />
+    }
+    else if (toggleState === "music") {
+      return <Music />
+    }
+    else {
+      return <Youtube />
+    }
+  };
+
 
   return (
     <div className="Works">
@@ -66,8 +82,10 @@ const Works = () => {
         </div>
       </div>
 
+      <div>
+        {showTable()}
+      </div>
 
-      <h1>{toggleState}</h1>
     </div >
   )
 };
