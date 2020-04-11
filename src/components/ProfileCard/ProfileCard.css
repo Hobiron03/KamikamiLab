@@ -52,6 +52,8 @@
     width: 60%;
     height: 230px;
     border: solid 1px black;
+    background-image: url("../../images/MyImage.png");
+    background-size: cover;
   }
   
   .profile-card-logos{
@@ -92,6 +94,11 @@
     font-weight: normal;
     border-bottom: solid 1px rgb(190, 190, 190);
   }
+
+  .profile-card-right-name p{
+    font-size: 15px;
+  }
+
   .profile-card-right-content{
     width: 90%;
     font-size: 18px;
@@ -159,6 +166,9 @@
     width: 100px;
     height: 100px;
     border: solid 1px black;
+
+    background-image: url("../../images/MyImage.png");
+    background-size: cover;
   }
   
   .profile-card-logos{
@@ -202,6 +212,10 @@
     margin-bottom: 10px;
     font-weight: normal;
     border-bottom: solid 1px rgb(190, 190, 190);
+  }
+
+  .profile-card-right-name p{
+    font-size: 13px;
   }
   .profile-card-right-content{
     width: 90%;

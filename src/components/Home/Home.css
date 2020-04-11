@@ -9,7 +9,8 @@
 .top{
   height: 500px;
   background-color: #474949;
-  background-image: url("../../images//TopImage.png");
+  background-image: url("../../images/Home.png");
+  background-size: cover;
   position: relative;
 }
 
@@ -121,8 +122,8 @@
 .top{
   height: 370px;
   background-color: #474949;
-
-  background-image: url("../../images//TopImage.png");
+  background-size: cover;
+  background-image: url("../../images/Home.png");
   position: relative;
 }
 

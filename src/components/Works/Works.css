@@ -31,6 +31,9 @@
       letter-spacing: 5px;
   }
 
-  
+  .toggle-button-selected{
+    background-color: #ED9542;
+    color: white;
+  }
 
 }
