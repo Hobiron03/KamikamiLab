@@ -1,5 +1,7 @@
 @media (min-width: 960px) { 
   .Works{
+    max-width: 1100px;
+    margin: 0 auto;
     padding-top: 90px;
     font-size: 36;
   }

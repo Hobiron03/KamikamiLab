@@ -43,10 +43,8 @@ const Works = () => {
     if (toggleState === buttonName) {
       selectedButtonClass = "toggle-button-selected";
     }
-
     return ['toggle-button-content', selectedButtonClass].join(" ");
   };
-
 
   const showTable = (): JSX.Element => {
     if (toggleState === "product") {

@@ -1,0 +1,11 @@
+.soundcloud{ 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.soundcloud iframe{
+    height: 200px;
+    width: 290px;
+    margin: 20px;
+}
