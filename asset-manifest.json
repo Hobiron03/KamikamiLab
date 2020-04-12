@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/KamikamiLab/static/css/main.66ae6265.chunk.css",
+    "main.js": "/KamikamiLab/static/js/main.8a0498f9.chunk.js",
+    "main.js.map": "/KamikamiLab/static/js/main.8a0498f9.chunk.js.map",
+    "runtime-main.js": "/KamikamiLab/static/js/runtime-main.d44ff4aa.js",
+    "runtime-main.js.map": "/KamikamiLab/static/js/runtime-main.d44ff4aa.js.map",
+    "static/js/2.5910d459.chunk.js": "/KamikamiLab/static/js/2.5910d459.chunk.js",
+    "static/js/2.5910d459.chunk.js.map": "/KamikamiLab/static/js/2.5910d459.chunk.js.map",
+    "index.html": "/KamikamiLab/index.html",
+    "precache-manifest.9e9ba5357172feb51a0bef3bac8f3805.js": "/KamikamiLab/precache-manifest.9e9ba5357172feb51a0bef3bac8f3805.js",
+    "service-worker.js": "/KamikamiLab/service-worker.js",
+    "static/css/main.66ae6265.chunk.css.map": "/KamikamiLab/static/css/main.66ae6265.chunk.css.map",
+    "static/js/2.5910d459.chunk.js.LICENSE.txt": "/KamikamiLab/static/js/2.5910d459.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/KamikamiLab/static/media/Home.cbe62019.png",
+    "static/media/ProfileCard.css": "/KamikamiLab/static/media/MyImage.203c969e.png",
+    "static/media/Portfolio.png": "/KamikamiLab/static/media/Portfolio.23d9b1e7.png",
+    "static/media/shiro.png": "/KamikamiLab/static/media/shiro.731ec810.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d44ff4aa.js",
+    "static/js/2.5910d459.chunk.js",
+    "static/css/main.66ae6265.chunk.css",
+    "static/js/main.8a0498f9.chunk.js"
+  ]
+}
