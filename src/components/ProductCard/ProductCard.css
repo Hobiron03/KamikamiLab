@@ -1,0 +1,29 @@
+@media (min-width: 960px) { 
+    .product-card{
+        width: 280px;
+        margin: 8px;
+        border: solid 1px rgb(180, 180, 180);
+        transition: all 0.2s;
+        cursor: pointer;
+    }
+
+    .product-card:hover{
+        transform: scale(1.05, 1.05);
+    }
+
+    .product-card p {
+        margin: 8px;
+    }
+    
+    .top-img{
+        height: 240px;
+        
+        background-size: cover;
+    }
+
+    .title-line {
+        display: flex;
+        justify-content: space-between;
+        margin: 8px;
+    }
+}

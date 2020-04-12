@@ -1,0 +1,12 @@
+@media (min-width: 960px) { 
+    .product {
+        margin: 0 auto;
+        width: 900px;  
+    }
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

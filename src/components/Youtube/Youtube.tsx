@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import "./Youtube.css";
 
 const Youtube = () => {
     return (
-        <div>
-            <p>This is Youtube</p>
+        <div className="youtube">
+            <h1>Comming soon...</h1>
         </div>
     );
 };
