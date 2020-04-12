@@ -3,7 +3,7 @@ import AppContext from '../../contexts/AppContext.js';
 import "./Header.css";
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link,
