@@ -39,3 +39,44 @@
   }
 
 }
+
+
+@media screen and (max-width: 960px) { 
+  .Works{
+    margin: 0 auto;
+    font-size: 12;
+  }
+
+  .title{
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .toggle-button{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+  }
+
+  .toggle-button-content{
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    border: solid 1px #bebebe;
+
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+  .toggle-button-content:hover{
+      letter-spacing: 5px;
+  }
+
+  .toggle-button-selected{
+    background-color: #ED9542;
+    color: white;
+  }
+  
+}

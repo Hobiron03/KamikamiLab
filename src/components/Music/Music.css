@@ -1,11 +1,27 @@
-.soundcloud{ 
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+@media (min-width: 960px) { 
+    .soundcloud{ 
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .soundcloud iframe{
+        height: 200px;
+        width: 290px;
+        margin: 20px;
+    }
 }
 
-.soundcloud iframe{
-    height: 200px;
-    width: 290px;
-    margin: 20px;
+@media (max-width: 960px) { 
+    .soundcloud{ 
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .soundcloud iframe{
+        height: 150px;
+        width: 330px;
+        margin: 20px;
+    }
 }
