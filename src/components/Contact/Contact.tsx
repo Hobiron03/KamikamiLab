@@ -4,6 +4,8 @@ import {
   CHANGE_PAGE_STATE_CONTACT,
 } from "../../actions/index";
 import "./Contact.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 const Contact = () => {
   const { dispatch } = useContext(AppContext);
@@ -23,7 +25,14 @@ const Contact = () => {
 
   return (
     <div className="contact">
-      <h1>Here is Contact!!!</h1>
+      <h2>SNS</h2>
+      <div className="contact-icon">
+        <FontAwesomeIcon icon={["fab", "facebook-square"]} size={"5x"} className="logos" color="#3b5998" />
+        <FontAwesomeIcon icon={["fab", "twitter-square"]} size={"5x"} className="logos" color="#00acee" />
+      </div>
+      <h3>or</h3>
+      <h2>E-mail</h2>
+      <h2 className="email">hobirondokidoki.5150[at]gmail.com</h2>
     </div>
   )
 };
