@@ -52,7 +52,7 @@
     width: 60%;
     height: 230px;
     border: solid 1px black;
-    background-image: url("../../images/MyImage.png");
+    background-image: url("../../images/MyImage.jpg");
     background-size: cover;
   }
   
@@ -167,7 +167,7 @@
     height: 100px;
     border: solid 1px black;
 
-    background-image: url("../../images/MyImage.png");
+    background-image: url("../../images/MyImage.jpg");
     background-size: cover;
   }
   
