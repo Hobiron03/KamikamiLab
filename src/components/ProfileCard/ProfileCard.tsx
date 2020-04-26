@@ -33,15 +33,14 @@ const ProfileCard = () => {
 
           <div className="profile-card-right">
             <h3 className="profile-card-right-name">
-              川上 雄大（Yudai Kawakami）
+              かみかみ（Kamikami）
                <div className="info">
-                <p>所属：立命館大学大学院情報理工学研究科</p>
                 <p>年齢：23</p>
                 <p>趣味：ゲーム、音楽</p>
               </div>
             </h3>
             <p className="profile-card-right-content">
-              川上雄大と申します。現在は大学院1年生です。趣味はゲームと音楽です。
+              かみかみと申します。現在は関西の情報系の大学に通う大学院1年生です。趣味はゲームと音楽です。
               将来は空間にいる人全員を楽しませることができるエンターテインメントを作る仕事に関わりたいと思っています。
             </p>
           </div>
