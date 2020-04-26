@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/KamikamiLab/precache-manifest.9e9ba5357172feb51a0bef3bac8f3805.js"
+  "/KamikamiLab/precache-manifest.fd7e16aea6a8befd62396f4c22bae7c7.js"
 );
 
 self.addEventListener('message', (event) => {
