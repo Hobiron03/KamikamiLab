@@ -25,6 +25,7 @@ const Contact = () => {
 
   return (
     <div className="contact">
+      <h1 className="contact-title">Contact</h1>
       <h2>SNS</h2>
       <div className="contact-icon">
         <FontAwesomeIcon icon={["fab", "facebook-square"]} size={"5x"} className="logos" color="#3b5998" />

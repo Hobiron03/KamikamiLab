@@ -6,6 +6,7 @@ interface ProductCardProps {
     topImage: string,
     title: string,
     description: string,
+    url: string,
     platformIconIonfo: {
         info: string,
         fontName: string,
@@ -18,17 +19,20 @@ const ProductCard = (props: ProductCardProps) => {
     const fontName: any = props.platformIconIonfo.fontName;
 
     return (
-        <div className="product-card">
-            <div className="top-img" style={{ backgroundImage: `url(${props.topImage})` }}>
-            </div>
-            <div className="title-line">
-                <h2>{props.title}</h2>
-                <div className="platform-icon">
-                    <FontAwesomeIcon icon={[info, fontName]} size={"2x"} />
+        <a href={props.url} className="product-card-a" target="_blank">
+            <div className="product-card"
+            >
+                <div className="top-img" style={{ backgroundImage: `url(${props.topImage})` }}>
                 </div>
+                <div className="title-line">
+                    <h2>{props.title}</h2>
+                    <div className="platform-icon">
+                        <FontAwesomeIcon icon={[info, fontName]} size={"2x"} />
+                    </div>
+                </div>
+                <p>{props.description}</p>
             </div>
-            <p>{props.description}</p>
-        </div>
+        </a>
     );
 };
 
