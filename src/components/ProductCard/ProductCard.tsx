@@ -19,7 +19,7 @@ const ProductCard = (props: ProductCardProps) => {
     const fontName: any = props.platformIconIonfo.fontName;
 
     return (
-        <a href={props.url} className="product-card-a" target="_blank">
+        <a href={props.url} className="product-card-a">
             <div className="product-card"
             >
                 <div className="top-img" style={{ backgroundImage: `url(${props.topImage})` }}>
