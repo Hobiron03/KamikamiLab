@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ca01e5cfac193a46f611d30bc8e9c19",
+    "revision": "6a59f0ac498cf5e34178fb96aa9f140a",
     "url": "/KamikamiLab/index.html"
   },
   {
-    "revision": "d19e8720d0e63eb2dde1",
-    "url": "/KamikamiLab/static/css/main.c8911a81.chunk.css"
+    "revision": "9f48d8ab49fffd261af2",
+    "url": "/KamikamiLab/static/css/main.e62e34dd.chunk.css"
   },
   {
-    "revision": "1e8a03e35010b306555b",
-    "url": "/KamikamiLab/static/js/2.01d0d827.chunk.js"
+    "revision": "bb05ba197c1fa62b2d01",
+    "url": "/KamikamiLab/static/js/2.c61ac4fd.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/KamikamiLab/static/js/2.01d0d827.chunk.js.LICENSE.txt"
+    "url": "/KamikamiLab/static/js/2.c61ac4fd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d19e8720d0e63eb2dde1",
-    "url": "/KamikamiLab/static/js/main.8ea1321b.chunk.js"
+    "revision": "9f48d8ab49fffd261af2",
+    "url": "/KamikamiLab/static/js/main.fc67e546.chunk.js"
   },
   {
     "revision": "d009f424b469f4e4d2ee",
@@ -38,5 +38,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "731ec8101a1300a2882e9a671e555cd5",
     "url": "/KamikamiLab/static/media/shiro.731ec810.png"
+  },
+  {
+    "revision": "eac55b470a12cf67c93aba1811399358",
+    "url": "/KamikamiLab/static/media/wordcollection.eac55b47.png"
   }
 ]);
