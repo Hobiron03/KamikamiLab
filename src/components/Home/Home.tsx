@@ -42,7 +42,7 @@ const Home = () => {
 
 
       <div>
-        <h2>Recent Work</h2>
+
       </div>
 
       <div className="content">

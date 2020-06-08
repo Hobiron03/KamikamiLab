@@ -47,8 +47,6 @@ const Product = () => {
                     }
                 }
             />
-
-
         </div>
     );
 };
