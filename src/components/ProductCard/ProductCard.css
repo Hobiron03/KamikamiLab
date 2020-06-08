@@ -3,7 +3,7 @@
         background-color: white;
     }
     .product-card{
-        width: 280px;
+        width: 300px;
         margin: 8px;
         border: solid 1px rgb(180, 180, 180);
         transition: all 0.2s;
