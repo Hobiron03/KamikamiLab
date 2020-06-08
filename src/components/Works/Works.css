@@ -27,13 +27,13 @@
     font-size: 20px;
     font-weight: bold;
 
-    transition: all 0.3s;
+    transition: all 0.5s;
     cursor: pointer;
   }
 
   .toggle-button-content:hover{
       letter-spacing: 5px;
-      background-color: rgb(243, 200, 160);
+      border-bottom: #ED9542 solid 1px;
   }
 
   .toggle-button-selected{

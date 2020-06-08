@@ -16,16 +16,16 @@ const ProfileCard = () => {
 
             </div>
             <div className="profile-card-logos">
-              <a href="https://google.com" className="git">
+              <a href="https://github.com/Hobiron03" className="git">
                 <FontAwesomeIcon icon={["fab", "github-square"]} size={"3x"} className="logos" />
               </a>
-              <a href="https://google.com" className="facebook">
+              <a href="https://www.facebook.com/kawakami5150/" className="facebook">
                 <FontAwesomeIcon icon={["fab", "facebook-square"]} size={"3x"} className="logos" />
               </a>
-              <a href="https://google.com" className="twitter">
+              <a href="#" className="twitter" >
                 <FontAwesomeIcon icon={["fab", "twitter-square"]} size={"3x"} className="logos" />
               </a>
-              <a href="https://google.com" className="youtube">
+              <a href="#" className="youtube">
                 <FontAwesomeIcon icon={["fab", "youtube"]} size={"3x"} className="logos" />
               </a>
             </div>

@@ -1,11 +1,4 @@
 import React, { useEffect, useContext, useState, useCallback } from 'react';
-// import {
-//   BrowserRouter as Router,
-//   Switch,
-//   Route,
-//   Link,
-//   useRouteMatch,
-// } from "react-router-dom";
 import Product from "../Product/Product";
 import Music from "../Music/Music";
 import Youtube from "../Youtube/Youtube";
