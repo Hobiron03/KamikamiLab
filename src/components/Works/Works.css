@@ -10,8 +10,8 @@
     text-align: center;
   }
 
-  .toggle-button{
-    width: 700px;
+  .toggle-buttons{
+    width: 650px;
     margin: 50px auto;
     display: flex;
   }
@@ -19,10 +19,12 @@
   .toggle-button-content{
     text-align: center;
     width: 100%;
-    padding: 20px;
-    border: solid 1px #bebebe;
+    padding: 15px;
+    margin: 5px;
+    /* border: solid 0.5px #444444; */
+    /* box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .1); */
 
-    font-size: 21px;
+    font-size: 20px;
     font-weight: bold;
 
     transition: all 0.3s;
@@ -31,6 +33,7 @@
 
   .toggle-button-content:hover{
       letter-spacing: 5px;
+      background-color: rgb(238, 217, 197);
   }
 
   .toggle-button-selected{
@@ -52,7 +55,7 @@
     font-size: 24px;
   }
 
-  .toggle-button{
+  .toggle-buttons{
     width: 90%;
     margin: 30px auto;
     display: flex;

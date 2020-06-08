@@ -40,6 +40,11 @@ const Home = () => {
 
       <div className="margin"></div>
 
+
+      <div>
+        <h2>Recent Work</h2>
+      </div>
+
       <div className="content">
 
         <div className="content-skill">
@@ -51,6 +56,7 @@ const Home = () => {
                 <h2>C#</h2>
                 <h2>Python</h2>
                 <h2>JavaScript</h2>
+                <h2>TypeScript</h2>
                 <h2>HTML</h2>
                 <h2>CSS</h2>
               </div>

@@ -1,13 +1,13 @@
 @media (min-width: 960px) { 
   .top h1 {
-    color: white;
+    color: rgb(230, 230, 230);
     font-size: 60px;
     padding-top: 100px;
     text-align: center;
   }
   
 .top{
-  height: 500px;
+  height: 600px;
   background-color: #474949;
   background-image: url("../../images/Home.png");
   background-size: cover;
@@ -20,7 +20,7 @@
 
 .content{
   margin: 0 auto;
-  margin-top: 300px;
+  margin-top: 140px;
   margin-bottom: 300px;
   width: 600%;
   max-width: 950px;
@@ -60,6 +60,7 @@
   flex-wrap: wrap;
   border: solid 1px #00A8CC;
   border-radius: 1%;
+  background-color: white;
 }
 
 .skill-lang-content h2{
@@ -71,7 +72,7 @@
 }
 
 .skill-framework-title{
-  background-color: white;
+  
   width: 50%;
   margin: 0 auto;
 }
@@ -82,6 +83,7 @@
   flex-wrap: wrap;
   border: solid 1px #00A8CC;
   border-radius: 1%;
+  background-color: white;
 }
 
 .skill-framework-content h2{
@@ -120,7 +122,7 @@
   
 
 .top{
-  height: 370px;
+  height: 400px;
   background-color: #474949;
   background-size: cover;
   background-image: url("../../images/Home.png");
@@ -181,6 +183,7 @@
   flex-wrap: wrap;
   border: solid 1px #00A8CC;
   border-radius: 1%;
+  background-color: white;
 }
 
 .skill-lang-content h2{
@@ -195,7 +198,6 @@
 }
 
 .skill-framework-title{
-  background-color: white;
   width: 50%;
   margin: 0 auto;
 }
@@ -206,6 +208,7 @@
   flex-wrap: wrap;
   border: solid 1px #00A8CC;
   border-radius: 1%;
+  background-color: white;
 }
 
 .skill-framework-content h2{

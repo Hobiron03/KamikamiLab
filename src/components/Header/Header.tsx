@@ -27,7 +27,6 @@ const Header = () => {
 
 
   useEffect(() => {
-    console.log(state);
     if (state[0] === true) {
       setHomeColor("#00A8CC");
       setWorksColor("#5A5A5A");

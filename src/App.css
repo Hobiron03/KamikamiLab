@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,500,700|Sen&display=swap&subset=japanese');
+/* @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,500,700|Sen&display=swap&subset=japanese'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 
 .App {
-  font-family: 'Sen', sans-serif;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  /* font-family: 'Sen', sans-serif; */
+  /* font-family: 'M PLUS Rounded 1c', sans-serif; */
+  font-family: 'Noto Sans JP', sans-serif;
   color: #424242;
+  /* background-color: red; */
 }
 
 h1, h2, h3, h4, h5,p {

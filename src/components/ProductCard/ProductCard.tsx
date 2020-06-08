@@ -19,20 +19,22 @@ const ProductCard = (props: ProductCardProps) => {
     const fontName: any = props.platformIconIonfo.fontName;
 
     return (
-        <a href={props.url} className="product-card-a">
-            <div className="product-card"
-            >
-                <div className="top-img" style={{ backgroundImage: `url(${props.topImage})` }}>
-                </div>
-                <div className="title-line">
-                    <h2>{props.title}</h2>
-                    <div className="platform-icon">
-                        <FontAwesomeIcon icon={[info, fontName]} size={"2x"} />
+        <div>
+            <a href={props.url} className="product-card-a">
+                <div className="product-card"
+                >
+                    <div className="top-img" style={{ backgroundImage: `url(${props.topImage})` }}>
                     </div>
+                    <div className="title-line">
+                        <h2>{props.title}</h2>
+                        <div className="platform-icon">
+                            <FontAwesomeIcon icon={[info, fontName]} size={"2x"} />
+                        </div>
+                    </div>
+                    <p>{props.description}</p>
                 </div>
-                <p>{props.description}</p>
-            </div>
-        </a>
+            </a>
+        </div>
     );
 };
 

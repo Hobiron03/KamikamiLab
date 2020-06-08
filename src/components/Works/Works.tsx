@@ -29,7 +29,6 @@ const Works = () => {
 
   useEffect(() => {
     stableDispatch({ type: CHANGE_PAGE_STATE_WORKS });
-    console.log("Worksss")
     // eslint-disable-next-line
   }, [pageState]);
 
@@ -62,7 +61,7 @@ const Works = () => {
   return (
     <div className="Works">
       <h1 className="title">Works</h1>
-      <div className="toggle-button">
+      <div className="toggle-buttons">
         <div className={toggleButtonClassName("product")}
           onClick={e => changeToggleState("product")}
         >
