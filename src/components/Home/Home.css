@@ -133,14 +133,32 @@
 
 /* recent-work-end */
 
-
-.contact{
-  margin-top: 3000px;
-}
-
+/* contact */
 .contact h3{
   font-size: 40px;
 }
+
+.contact{
+  padding-top: 80px;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.contact h2, h3 {
+  text-align: center;
+}
+
+.contact-icon{
+  display: flex;
+  justify-content: center;
+}
+
+.contact-content{
+  margin-top: 20px;
+}
+
+
+/* contact-end */
 
 @keyframes fadein {
   from {

@@ -3,6 +3,7 @@ import AppContext from '../../contexts/AppContext.js';
 import {
   CHANGE_PAGE_STATE_HOME,
 } from "../../actions/index";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import "./Home.css";
 
 import ProfileCard from '../ProfileCard/ProfileCard';
@@ -85,6 +86,15 @@ const Home = () => {
 
       <div className="contact">
         <h3>Contact</h3>
+        <div className="contact-content">
+          <h2>SNS</h2>
+          <div className="contact-icon">
+            <FontAwesomeIcon icon={["fab", "facebook-square"]} size={"4x"} className="logos" color="#3b5998" />
+            <FontAwesomeIcon icon={["fab", "twitter-square"]} size={"4x"} className="logos" color="#00acee" />
+          </div>
+          <h2>E-mail</h2>
+          <h2 className="email">KamikamiLabwakuwaku[at]gmail.com</h2>
+        </div>
       </div>
     </div>
   )
