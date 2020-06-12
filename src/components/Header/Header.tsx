@@ -89,11 +89,11 @@ const Header = () => {
           <Link exact="true" to="/contact" style={{ textDecoration: 'none' }}>
             <HeaderNavigationButton
               contentTextColor={contactColor}
-              contentText={"Contact"}
+              contentText={"Youtube"}
               fontInfo={
                 {
-                  info: "fas",
-                  fontName: "address-card"
+                  info: "fab",
+                  fontName: "youtube"
                 }
               }
             />
