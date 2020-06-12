@@ -35,15 +35,8 @@ const Home = () => {
       <div className="top" style={{ backgroundImage: "TopImage" }}>
         <h1>Welcome to KamikamiLab!</h1>
       </div>
-
       <ProfileCard />
-
       <div className="margin"></div>
-
-
-      <div>
-
-      </div>
 
       <div className="content">
 
@@ -73,8 +66,14 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <Mybutton />
         </div>
+      </div>
+      <div className="recent-word">
+        <h3>Recent work</h3>
+        <Mybutton />
+      </div>
+      <div className="contact">
+        <h3>Contact</h3>
       </div>
     </div>
   )

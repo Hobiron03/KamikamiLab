@@ -90,6 +90,22 @@
   margin: 30px;
 }
 
+.recent-word{
+
+}
+
+.recent-word h3{
+  font-size: 40px;
+}
+
+.contact{
+  margin-top: 300px;
+}
+
+.contact h3{
+  font-size: 40px;
+}
+
 @keyframes fadein {
   from {
       opacity: 0;

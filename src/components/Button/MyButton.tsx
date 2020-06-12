@@ -9,7 +9,7 @@ const MyButton = () => {
     <div>
       <Link to="/works" style={{ textDecoration: 'none' }}>
         <div className="button">
-          <p>Worksへ</p>
+          <p>Other works</p>
         </div>
       </Link>
     </div>
