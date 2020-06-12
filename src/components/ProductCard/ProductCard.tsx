@@ -19,7 +19,7 @@ const ProductCard = (props: ProductCardProps) => {
     const fontName: any = props.platformIconIonfo.fontName;
 
     return (
-        <div>
+        <div className="card">
             <a href={props.url} className="product-card-a">
                 <div className="product-card"
                 >

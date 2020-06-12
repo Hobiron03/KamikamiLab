@@ -7,6 +7,7 @@ import "./Home.css";
 
 import ProfileCard from '../ProfileCard/ProfileCard';
 import Mybutton from '../Button/MyButton';
+import WordCollectionImg from '../../images/wordcollection.png';
 
 const Home = () => {
 
@@ -68,10 +69,20 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="recent-word">
+
+      <div className="recent-work">
         <h3>Recent work</h3>
+        <h2>ことばあつめ</h2>
+        <div className="recent-work-content">
+          <div className="recent-work-content-left" style={{ backgroundImage: `url(${WordCollectionImg})`}}>
+          </div>
+          <div className="recent-work-content-right">
+          <p>みなさん！！</p>
+          </div>
+        </div>
         <Mybutton />
       </div>
+
       <div className="contact">
         <h3>Contact</h3>
       </div>
@@ -80,9 +91,4 @@ const Home = () => {
 
 };
 
-
 export default Home;
-
-
-// <ProfileCard />
-

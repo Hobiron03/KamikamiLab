@@ -90,16 +90,52 @@
   margin: 30px;
 }
 
-.recent-word{
-
+/* recent-work */
+.recent-work{
+  margin: 0 auto;
+  width: 65%;
 }
 
-.recent-word h3{
+.recent-work h3{
   font-size: 40px;
 }
 
+.recent-work h2{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.recent-work-content{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.recent-work-content-left{
+  background-color: #474949;
+  width: 45%;
+  background-size: cover;
+  height: 300px;
+}
+
+.recent-work-content-right{
+  width: 45%;
+  margin-left: 10px;
+}
+
+.recent-work-content-left img{
+  width: 50%;
+  height: 100%;
+}
+
+.recent-work-content-right{
+}
+
+/* recent-work-end */
+
+
 .contact{
-  margin-top: 300px;
+  margin-top: 3000px;
 }
 
 .contact h3{
