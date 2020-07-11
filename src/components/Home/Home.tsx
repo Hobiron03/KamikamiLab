@@ -49,8 +49,8 @@ const Home = () => {
               <h2>Language</h2>
               <div className="skill-lang-content">
                 <h2>C#</h2>
+                <h2>Go</h2>
                 <h2>Python</h2>
-                <h2>JavaScript</h2>
                 <h2>TypeScript</h2>
                 <h2>HTML</h2>
                 <h2>CSS</h2>
@@ -63,8 +63,8 @@ const Home = () => {
                 <h2>Unity</h2>
                 <h2>Django</h2>
                 <h2>React</h2>
+                <h2>Docker</h2>
                 <h2>Premiere Pro</h2>
-                <h2>After Effects</h2>
               </div>
             </div>
           </div>
