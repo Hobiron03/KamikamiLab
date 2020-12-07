@@ -1,4 +1,4 @@
 
 ## ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-hobiron03.github.io/kamikamilab/
+https://github.com/Hobiron03/KamikamiLab
 ## ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
