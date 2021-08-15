@@ -1,27 +1,25 @@
-.youtube h2{
-    margin-top: 100px;
-    text-align: center;
+.youtube h2 {
+  text-align: center;
 }
 
-.youtube{
-    width: 100%;
+.youtube {
+  width: 100%;
 }
 
-.kamikamilab h3{
-    margin-top: 30px;
+.kamikamilab h3 {
+  margin-top: 30px;
 }
 
-.music{
-    margin-top: 200px;
+.music {
+  margin-top: 80px;
 }
 
-.music-movies{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.music-movies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.music-movies iframe{
-    margin: 20px;
+.music-movies iframe {
+  margin: 20px;
 }
-

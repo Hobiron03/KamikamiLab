@@ -1,13 +1,10 @@
-import React, { useEffect, useContext, useState, useCallback } from 'react';
+import React, { useEffect, useContext, useState, useCallback } from "react";
 import Product from "../Product/Product";
 import Music from "../Music/Music";
 import Youtube from "../Youtube/Youtube";
-import AppContext from '../../contexts/AppContext.js';
-import {
-  CHANGE_PAGE_STATE_WORKS,
-} from "../../actions/index";
+import AppContext from "../../contexts/AppContext.js";
+import { CHANGE_PAGE_STATE_WORKS } from "../../actions/index";
 import "./Works.css";
-
 
 const Works = () => {
   const { dispatch } = useContext(AppContext);
@@ -30,54 +27,52 @@ const Works = () => {
   };
 
   const toggleButtonClassName = (buttonName: string): string => {
-
     let selectedButtonClass: string = "";
     if (toggleState === buttonName) {
       selectedButtonClass = "toggle-button-selected";
     }
-    return ['toggle-button-content', selectedButtonClass].join(" ");
+    return ["toggle-button-content", selectedButtonClass].join(" ");
   };
 
   const showTable = (): JSX.Element => {
     if (toggleState === "product") {
-      return <Product />
-    }
-    else if (toggleState === "music") {
-      return <Music />
-    }
-    else {
-      return <Youtube />
+      return <Product />;
+    } else if (toggleState === "music") {
+      return <Music />;
+    } else {
+      return <Youtube />;
     }
   };
-
 
   return (
     <div className="Works">
       <h1 className="title">Works</h1>
       <div className="toggle-buttons">
-        <div className={toggleButtonClassName("product")}
-          onClick={e => changeToggleState("product")}
+        <div
+          className={toggleButtonClassName("product")}
+          onClick={(e) => changeToggleState("product")}
         >
           <p>Product</p>
         </div>
 
-        <div className={toggleButtonClassName("music")}
-          onClick={e => changeToggleState("music")}>
+        <div
+          className={toggleButtonClassName("music")}
+          onClick={(e) => changeToggleState("music")}
+        >
           <p>Music</p>
         </div>
 
-        <div className={toggleButtonClassName("youtube")}
-          onClick={e => changeToggleState("youtube")}>
+        <div
+          className={toggleButtonClassName("youtube")}
+          onClick={(e) => changeToggleState("youtube")}
+        >
           <p>Youtube</p>
         </div>
       </div>
 
-      <div>
-        {showTable()}
-      </div>
-
-    </div >
-  )
+      <div>{showTable()}</div>
+    </div>
+  );
 };
 
 export default Works;

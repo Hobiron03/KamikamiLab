@@ -1,300 +1,279 @@
-@media (min-width: 960px) { 
+@media (min-width: 960px) {
   .top h1 {
     color: rgb(230, 230, 230);
     font-size: 60px;
     padding-top: 100px;
     text-align: center;
   }
-  
-.top{
-  height: 600px;
-  background-color: #474949;
-  background-image: url("../../images/Home.png");
-  background-size: cover;
-  position: relative;
-}
 
-.home{
-  padding-top: 70px;
-}
+  .top {
+    height: 600px;
+    background-color: #474949;
+    background-image: url("../../images/Home.png");
+    background-size: cover;
+    position: relative;
+  }
 
-.content{
-  margin: 0 auto;
-  margin-top: 180px;
-  margin-bottom: 300px;
-  width: 600%;
-  max-width: 950px;
-}
+  .home {
+    padding-top: 70px;
+  }
 
+  .content {
+    margin: 0 auto;
+    margin-top: 180px;
+    margin-bottom: 300px;
+    width: 600%;
+    max-width: 950px;
+  }
 
-.content-skill{
-  margin: 0 auto;
-  margin-bottom: 300px;
-  text-align: center;
-  height: 55px;
-  width: 100%;
-}
+  .content-skill {
+    margin: 0 auto;
+    margin-bottom: 300px;
+    text-align: center;
+    height: 55px;
+    width: 100%;
+  }
 
-.content-skill h3{
-  font-size: 40px;
-}
+  .content-skill h3 {
+    font-size: 40px;
+  }
 
-.content-skill-list{
-  margin-top: 0px;
-  margin-bottom: 80px;
-  display: flex;
-  justify-content: space-between;
+  .content-skill-list {
+    margin-top: 0px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
 
-  /* animation-name: fadein; */
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-}
+    /* animation-name: fadein; */
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+  }
 
-.skill-lang{
-  width: 48%;
-}
+  .skill-lang {
+    width: 48%;
+  }
 
-.skill-lang-content{
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-  border: solid 1px #00A8CC;
-  border-radius: 1%;
-  background-color: white;
-}
+  .skill-lang-content {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px #00a8cc;
+    border-radius: 1%;
+    background-color: white;
+  }
 
-.skill-lang-content h2{
-  margin: 30px;
-}
+  .skill-lang-content h2 {
+    margin: 30px;
+  }
 
-.skill-framework{
-  width: 48%;
-}
+  .skill-framework {
+    width: 48%;
+  }
 
-.skill-framework-title{
-  
-  width: 50%;
-  margin: 0 auto;
-}
+  .skill-framework-title {
+    width: 50%;
+    margin: 0 auto;
+  }
 
-.skill-framework-content{
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-  border: solid 1px #00A8CC;
-  border-radius: 1%;
-  background-color: white;
-}
+  .skill-framework-content {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px #00a8cc;
+    border-radius: 1%;
+    background-color: white;
+  }
 
-.skill-framework-content h2{
-  margin: 30px;
-}
+  .skill-framework-content h2 {
+    margin: 30px;
+  }
 
-/* recent-work */
-.recent-work{
-  margin: 0 auto;
-  width: 65%;
-}
+  /* recent-work */
+  .recent-work {
+    margin: 0 auto;
+    width: 65%;
+  }
 
-.recent-work h3{
-  font-size: 40px;
-}
+  .recent-work h3 {
+    font-size: 40px;
+  }
 
-.recent-work h2{
-  margin-top: 30px;
-  text-align: center;
-}
+  .recent-work h2 {
+    margin-top: 30px;
+    text-align: center;
+  }
 
-.recent-work-content{
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
+  .recent-work-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
 
-.recent-work-content-left{
-  background-color: #474949;
-  width: 45%;
-  background-size: cover;
-  height: 300px;
-}
+  .recent-work-content-left {
+    background-color: #474949;
+    width: 45%;
+    background-size: cover;
+    height: 300px;
+  }
 
-.recent-work-content-right{
-  width: 45%;
-  margin-left: 10px;
-}
+  .recent-work-content-right {
+    width: 45%;
+    margin-left: 10px;
+  }
 
-.recent-work-content-left img{
-  width: 50%;
-  height: 100%;
-}
+  .recent-work-content-left img {
+    width: 50%;
+    height: 100%;
+  }
 
-.recent-work-content-right{
-}
+  .recent-work-content-right {
+  }
 
-/* recent-work-end */
+  /* recent-work-end */
 
-/* contact */
-.contact h3{
-  font-size: 40px;
-}
+  /* contact */
+  .contact h3 {
+    font-size: 40px;
+  }
 
-.contact{
-  margin: 60px auto;
-  max-width: 400px;
-}
+  .contact {
+    margin: 60px auto;
+    max-width: 400px;
+  }
 
-.contact h2, h3 {
-  text-align: center;
-}
+  .contact h2,
+  h3 {
+    text-align: center;
+  }
 
-.contact-icon{
-  display: flex;
-  justify-content: center;
-}
+  .contact-icon {
+    display: flex;
+    justify-content: center;
+  }
 
-.contact-content{
-  margin-top: 20px;
-}
+  .contact-content {
+    margin-top: 20px;
+  }
 
+  /* contact-end */
 
-/* contact-end */
-
-@keyframes fadein {
-  from {
+  @keyframes fadein {
+    from {
       opacity: 0;
       transform: translateY(150px);
-  }
-  to {
+    }
+    to {
       opacity: 1;
       transform: translateY(0);
-     }
+    }
   }
 }
 
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 960px) { 
-
+@media screen and (max-width: 960px) {
   .top h1 {
     color: white;
     font-size: 40px;
     padding-top: 40px;
     text-align: center;
   }
-  
 
-.top{
-  height: 400px;
-  background-color: #474949;
-  background-size: cover;
-  background-image: url("../../images/Home.png");
-  position: relative;
-}
+  .top {
+    height: 400px;
+    background-color: #474949;
+    background-size: cover;
+    background-image: url("../../images/Home.png");
+    position: relative;
+  }
 
+  .content {
+    margin: 0 auto;
+    margin-bottom: 300px;
+    width: 100%;
+    max-width: 950px;
+  }
 
-.content{
-  margin: 0 auto;
-  margin-bottom: 300px;
-  width: 100%;
-  max-width: 950px;
-}
+  .content-skill {
+    margin: 0 auto;
+    text-align: center;
+    height: 55px;
+    width: 100%;
+  }
 
+  .content-skill h3 {
+    font-size: 26px;
+  }
 
+  .content-skill {
+    margin-top: 450px;
+  }
 
-.content-skill{
-  margin: 0 auto;
-  text-align: center;
-  height: 55px;
-  width: 100%;
+  .content-skill-list {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-}
+    /* animation-name: fadein; */
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+  }
 
-.content-skill h3{
-  font-size: 26px;
-}
+  .skill-lang {
+    width: 80%;
+    font-size: 12px;
 
-.content-skill{
-  margin-top: 450px;
-}
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 
+  .skill-lang-content {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px #00a8cc;
+    border-radius: 1%;
+    background-color: white;
+  }
 
-.content-skill-list{
-  margin-top: 0px;
-  margin-bottom: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  .skill-lang-content h2 {
+    margin: 15px;
+  }
 
-  /* animation-name: fadein; */
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-}
+  .skill-framework {
+    width: 80%;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
 
-.skill-lang{
-  width: 80%;
-  font-size: 12px;
+  .skill-framework-title {
+    width: 50%;
+    margin: 0 auto;
+  }
 
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
+  .skill-framework-content {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px #00a8cc;
+    border-radius: 1%;
+    background-color: white;
+  }
 
-.skill-lang-content{
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-  border: solid 1px #00A8CC;
-  border-radius: 1%;
-  background-color: white;
-}
+  .skill-framework-content h2 {
+    margin: 15px;
+  }
 
-.skill-lang-content h2{
-  margin: 15px;
-}
-
-.skill-framework{
-  width: 80%;
-  font-size: 12px;
-  margin-top: 15px;
-  margin-bottom: 25px;
-}
-
-.skill-framework-title{
-  width: 50%;
-  margin: 0 auto;
-}
-
-.skill-framework-content{
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-  border: solid 1px #00A8CC;
-  border-radius: 1%;
-  background-color: white;
-}
-
-.skill-framework-content h2{
-  margin: 15px;
-  
-}
-
-@keyframes fadein {
-  from {
+  @keyframes fadein {
+    from {
       opacity: 0;
       transform: translateY(20px);
-  }
-  to {
+    }
+    to {
       opacity: 1;
       transform: translateY(0);
-     }
+    }
   }
-
 }
-

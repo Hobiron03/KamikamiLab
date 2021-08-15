@@ -1,22 +1,22 @@
-@media (min-width: 960px) { 
-  .Works{
+@media (min-width: 960px) {
+  .Works {
     max-width: 1400px;
     margin: 0 auto;
     padding-top: 90px;
     font-size: 36;
   }
 
-  .title{
+  .title {
     text-align: center;
   }
 
-  .toggle-buttons{
+  .toggle-buttons {
     width: 650px;
     margin: 50px auto;
     display: flex;
   }
 
-  .toggle-button-content{
+  .toggle-button-content {
     text-align: center;
     width: 100%;
     padding: 15px;
@@ -31,36 +31,35 @@
     cursor: pointer;
   }
 
-  .toggle-button-content:hover{
-      letter-spacing: 5px;
-      border-bottom: #ED9542 solid 1px;
+  .toggle-button-content:hover {
+    letter-spacing: 5px;
+    border-bottom: #ed9542 solid 1px;
   }
 
-  .toggle-button-selected{
-    background-color: #ED9542;
+  .toggle-button-selected {
+    background-color: #ed9542;
     color: white;
   }
 }
 
-
-@media screen and (max-width: 960px) { 
-  .Works{
+@media screen and (max-width: 960px) {
+  .Works {
     margin: 0 auto;
     font-size: 12;
   }
 
-  .title{
+  .title {
     text-align: center;
     font-size: 24px;
   }
 
-  .toggle-buttons{
+  .toggle-buttons {
     width: 90%;
     margin: 30px auto;
     display: flex;
   }
 
-  .toggle-button-content{
+  .toggle-button-content {
     text-align: center;
     width: 100%;
     padding: 15px;
@@ -72,13 +71,12 @@
     cursor: pointer;
   }
 
-  .toggle-button-content:hover{
-      letter-spacing: 5px;
+  .toggle-button-content:hover {
+    letter-spacing: 5px;
   }
 
-  .toggle-button-selected{
-    background-color: #ED9542;
+  .toggle-button-selected {
+    background-color: #ed9542;
     color: white;
   }
-  
 }

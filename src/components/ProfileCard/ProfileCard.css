@@ -1,53 +1,53 @@
-@media (min-width: 960px) { 
+@media (min-width: 960px) {
   @keyframes fadein {
     from {
-        opacity: 0;
-        transform: translateY(150px);
+      opacity: 0;
+      transform: translateY(150px);
     }
     to {
-        opacity: 1;
-        transform: translateY(0);
-       }
+      opacity: 1;
+      transform: translateY(0);
     }
-  
-  .profile-card{
+  }
+
+  .profile-card {
     position: absolute;
     top: 370px;
     left: 0;
     right: 0;
     margin: auto;
-  
-    width: 700px;
+
+    width: 750px;
     height: 450px;
-  
+
     background-color: white;
     border: solid 1px rgb(197, 197, 197);
-    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.2));
-  
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.2));
+
     animation-name: fadein;
     animation-duration: 1s;
     animation-iteration-count: 1;
   }
-  
-  .profile-card-title{
+
+  .profile-card-title {
     font-size: 30px;
     padding-top: 10px;
     text-align: center;
     height: 55px;
   }
-  
-  .profile-card-content{
+
+  .profile-card-content {
     display: flex;
     margin-top: 20px;
   }
-  
-  .profile-card-left{
+
+  .profile-card-left {
     height: 100%;
     width: 45%;
     text-align: center;
   }
-  
-  .profile-card-img{
+
+  .profile-card-img {
     margin: 10px auto 0px auto;
     width: 60%;
     height: 230px;
@@ -55,113 +55,108 @@
     background-image: url("../../images/MyImage.jpg");
     background-size: cover;
   }
-  
-  .profile-card-logos{
+
+  .profile-card-logos {
     text-align: center;
   }
-  
-  .profile-card-logos a{
+
+  .profile-card-logos a {
     transition: all 0.2s;
     color: #696969;
   }
-  
-  .git:hover{
+
+  .git:hover {
     color: black;
   }
-  
-  .facebook:hover{
+
+  .facebook:hover {
     color: #3b5998;
   }
-  
-  .twitter:hover{
-    color: #38A1F3;
+
+  .twitter:hover {
+    color: #38a1f3;
   }
-  
-  .youtube:hover{
+
+  .youtube:hover {
     color: #c4302b;
   }
-  
-  .logos{
+
+  .logos {
     margin: 20px 5px;
   }
-  
-  .profile-card-right{
+
+  .profile-card-right {
     width: 65%;
   }
-  .profile-card-right-name{
+  .profile-card-right-name {
     width: 80%;
     margin-bottom: 10px;
     font-weight: normal;
     border-bottom: solid 1px rgb(190, 190, 190);
   }
 
-  .profile-card-right-name p{
+  .profile-card-right-name p {
     font-size: 15px;
   }
 
-  .profile-card-right-content{
+  .profile-card-right-content {
     width: 90%;
     font-size: 18px;
   }
 }
 
-
-
-
-
-@media (max-width: 960px) { 
+@media (max-width: 960px) {
   @keyframes fadein {
     from {
-        opacity: 0;
-        transform: translateY(150px);
+      opacity: 0;
+      transform: translateY(150px);
     }
     to {
-        opacity: 1;
-        transform: translateY(0);
-       }
+      opacity: 1;
+      transform: translateY(0);
     }
-  
-  .profile-card{
+  }
+
+  .profile-card {
     position: absolute;
     top: 370px;
     left: 0;
     right: 0;
     margin: auto;
-  
+
     width: 90%;
     height: 570px;
-  
+
     background-color: white;
     border: solid 1px rgb(197, 197, 197);
-    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.2));
-  
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.2));
+
     animation-name: fadein;
     animation-duration: 1s;
     animation-iteration-count: 1;
-
   }
-  
-  .profile-card-title{
+
+  .profile-card-title {
     font-size: 20px;
     padding-top: 5px;
     text-align: center;
   }
-  
-  .profile-card-content{
+
+  .profile-card-content {
     display: flex;
     margin-top: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
   }
-  
-  .profile-card-left{
+
+  .profile-card-left {
     height: 100%;
     width: 80%;
     text-align: center;
   }
-  
-  .profile-card-img{
+
+  .profile-card-img {
     margin: 10px auto 0px auto;
     width: 100px;
     height: 100px;
@@ -170,43 +165,43 @@
     background-image: url("../../images/MyImage.jpg");
     background-size: cover;
   }
-  
-  .profile-card-logos{
+
+  .profile-card-logos {
     text-align: center;
   }
-  
-  .profile-card-logos a{
+
+  .profile-card-logos a {
     transition: all 0.2s;
     color: #696969;
   }
-  
-  .git:hover{
+
+  .git:hover {
     color: black;
   }
-  
-  .facebook:hover{
+
+  .facebook:hover {
     color: #3b5998;
   }
-  
-  .twitter:hover{
-    color: #38A1F3;
+
+  .twitter:hover {
+    color: #38a1f3;
   }
-  
-  .youtube:hover{
+
+  .youtube:hover {
     color: #c4302b;
   }
-  
-  .logos{
+
+  .logos {
     margin: 20px 5px;
   }
-  
-  .profile-card-right{
+
+  .profile-card-right {
     width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .profile-card-right-name{
+  .profile-card-right-name {
     width: 90%;
     text-align: center;
     margin-bottom: 10px;
@@ -214,13 +209,11 @@
     border-bottom: solid 1px rgb(190, 190, 190);
   }
 
-  .profile-card-right-name p{
-    font-size: 13px;
+  .profile-card-right-name p {
+    font-size: 14px;
   }
-  .profile-card-right-content{
+  .profile-card-right-content {
     width: 90%;
-    font-size: 18px;
+    font-size: 16px;
   }
-
-
 }
