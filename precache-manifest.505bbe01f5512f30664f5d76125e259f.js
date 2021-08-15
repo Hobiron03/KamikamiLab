@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d58745c2779bdd67f54b9d8d98b19ac0",
+    "revision": "9bad4c9b2c48136961d43d11083360d0",
     "url": "/KamikamiLab/index.html"
   },
   {
-    "revision": "de23b4e183bb3682e765",
-    "url": "/KamikamiLab/static/css/main.08e50291.chunk.css"
+    "revision": "50dc296889da19636ebd",
+    "url": "/KamikamiLab/static/css/main.1cdbdcbb.chunk.css"
   },
   {
-    "revision": "bb05ba197c1fa62b2d01",
-    "url": "/KamikamiLab/static/js/2.c61ac4fd.chunk.js"
+    "revision": "bd78adafee58c164edda",
+    "url": "/KamikamiLab/static/js/2.8080c2ef.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/KamikamiLab/static/js/2.c61ac4fd.chunk.js.LICENSE.txt"
+    "url": "/KamikamiLab/static/js/2.8080c2ef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "de23b4e183bb3682e765",
-    "url": "/KamikamiLab/static/js/main.41485e42.chunk.js"
+    "revision": "50dc296889da19636ebd",
+    "url": "/KamikamiLab/static/js/main.68eedcb9.chunk.js"
   },
   {
     "revision": "d009f424b469f4e4d2ee",
